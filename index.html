@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav role="navigation">
+
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+
+    <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+
+    <ul id="menu">
+      <a href="index.html"><li>Home</li></a>
+      <a href="watch.html"><li>Watch</li></a>
+      <a href="request.html"><li>Request</li></a>
+      <a href="contact.html"><li>Contact</li></a>
+      <div class="overlay"></div>
+    </ul>
+
+</nav>
+<div class="title">potato.city</div>
+        <div class="arrow"><img src="img/arrow.svg"></div>
+
+    <div class="animation-wrap">
+    <div class="logo-wrap">
+      <div class="logo" href="#">
+        <img src="logo.svg">
+      </div>
+      <div class="shadow"></div>
+    </div>
+  </div>
+  </body>
+</html>
