@@ -6,6 +6,15 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/Druk-WideMedium.woff2') format('woff2'),
+        url('fonts/Druk-WideMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 html, body {
 height: 100%;
 margin: 0;
@@ -339,7 +348,7 @@ a:hover
   align-items: center;
   color: #ffffff;
   justify-content: center;
-  font-family: Druk Wide;
+  font-family: "Druk Wide";
   text-transform: uppercase;
   background-color: #686ae091;
 }
